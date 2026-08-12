@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evidence First Writer"
+  short_description: "结合搜索、清晰、自然、有证据意识的中文表达和配图能力，完成文章选题、写作、润色和发布素材准备。"
+  default_prompt: "Use $evidence-first-writer to complete this workflow and return a verified deliverable."

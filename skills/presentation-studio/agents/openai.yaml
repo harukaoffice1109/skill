@@ -1,0 +1,4 @@
+interface:
+  display_name: "Presentation Studio"
+  short_description: "根据主题、URL 或文本创建演示文稿，适合快速产出结构化汇报材料。"
+  default_prompt: "Use $presentation-studio to complete this workflow and return a verified deliverable."

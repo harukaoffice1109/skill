@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interactive Chart Report"
+  short_description: "将文本、Markdown、CSV/JSON/表格数据、研究材料或统计结果制作成自包含 HTML 可视化网页、数据故事和统"
+  default_prompt: "Use $interactive-chart-report to complete this workflow and return a verified deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Signal Radar"
+  short_description: "从公开的 AI、技术和创作信息源建立可追溯的信息雷达，筛选值得研究或创作的主题。"
+  default_prompt: "Use $ai-signal-radar to complete this workflow and return a verified deliverable."

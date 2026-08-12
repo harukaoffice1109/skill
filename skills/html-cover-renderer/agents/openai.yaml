@@ -1,0 +1,4 @@
+interface:
+  display_name: "HTML Cover Renderer"
+  short_description: "把标题和内容做成固定尺寸 HTML 封面或社媒卡片，并截图导出 PNG。"
+  default_prompt: "Use $html-cover-renderer to complete this workflow and return a verified deliverable."

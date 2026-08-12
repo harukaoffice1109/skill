@@ -1,0 +1,4 @@
+interface:
+  display_name: "Listenhub Workflow Router"
+  short_description: "ListenHub 音频生成与处理能力入口，用于路由到语音、播客或相关音频工作流。"
+  default_prompt: "Use $listenhub-workflow-router to complete this workflow and return a verified deliverable."

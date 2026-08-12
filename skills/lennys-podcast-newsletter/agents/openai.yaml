@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lennys Podcast Newsletter"
+  short_description: "Lenny Rachitsky 播客与 Newsletter 知识库。搜索、阅读、学习 Lenny 的 638 篇内容（"
+  default_prompt: "Use $lennys-podcast-newsletter to complete this workflow and return a verified deliverable."

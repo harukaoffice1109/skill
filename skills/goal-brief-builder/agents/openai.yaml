@@ -1,0 +1,4 @@
+interface:
+  display_name: "Goal Brief Builder"
+  short_description: "把模糊或复杂的 Agent 任务整理成目标、范围、约束、证据和完成标准清晰的执行简报。"
+  default_prompt: "Use $goal-brief-builder to complete this workflow and return a verified deliverable."

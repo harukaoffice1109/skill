@@ -1,0 +1,660 @@
+[
+  {
+    "name": "goal-brief-builder",
+    "category": "Haruka Agent 工作流",
+    "summary": "把模糊或复杂的 Agent 任务整理成目标、范围、约束、证据和完成标准清晰的执行简报。",
+    "path": "skills/goal-brief-builder/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill goal-brief-builder"
+  },
+  {
+    "name": "skill-workflow-architect",
+    "category": "Haruka Agent 工作流",
+    "summary": "把真实工作流研究、评测、打包成可发布的 Agent Skill，并保留迁移和治理流程。",
+    "path": "skills/skill-workflow-architect/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill skill-workflow-architect"
+  },
+  {
+    "name": "deep-research-orchestrator",
+    "category": "Haruka Agent 工作流",
+    "summary": "用多代理并行分析复杂问题，再由主线程汇总成结构化 Markdown 与 HTML 报告。",
+    "path": "skills/deep-research-orchestrator/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill deep-research-orchestrator"
+  },
+  {
+    "name": "skill-release-manager",
+    "category": "Haruka Agent 工作流",
+    "summary": "检查并发布 Agent Skill，覆盖目录规范、说明、安装命令、版本记录和发布验证。",
+    "path": "skills/skill-release-manager/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill skill-release-manager"
+  },
+  {
+    "name": "haruka-skill-index",
+    "category": "Haruka Agent 工作流",
+    "summary": "维护 Haruka Skills 的分类索引、用途说明、安装入口和版本状态。",
+    "path": "skills/haruka-skill-index/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill haruka-skill-index"
+  },
+  {
+    "name": "course-blueprint-designer",
+    "category": "Haruka Agent 工作流",
+    "summary": "通过持续、单问、带推荐答案的依赖感知访谈，与用户共创课程、培训、workshop、教学项目或知识产品蓝图。用于从模糊想法、半成品大纲或历史决策继续设计。",
+    "path": "skills/course-blueprint-designer/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill course-blueprint-designer"
+  },
+  {
+    "name": "chinese-fiction-studio",
+    "category": "Haruka 内容创作",
+    "summary": "根据一句想法生成完整、有钩子、有节奏的中文短篇小说，并支持续写和改写。",
+    "path": "skills/chinese-fiction-studio/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill chinese-fiction-studio"
+  },
+  {
+    "name": "search-visibility-auditor",
+    "category": "Haruka 内容创作",
+    "summary": "审查和优化网站 SEO，覆盖 Google、Bing、AI 搜索、技术结构、内容机会和上线验证。",
+    "path": "skills/search-visibility-auditor/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill search-visibility-auditor"
+  },
+  {
+    "name": "markdown-blog-publisher",
+    "category": "Haruka 内容创作",
+    "summary": "把 Markdown、文本或网页材料整理成可发布的博客内容包，处理元数据、图片、草稿状态和发布前检查。",
+    "path": "skills/markdown-blog-publisher/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill markdown-blog-publisher"
+  },
+  {
+    "name": "ai-ready-prd-writer",
+    "category": "Haruka 内容创作",
+    "summary": "把一句产品想法扩展成 AI 可执行的 PRD，补齐目标、用户、范围、流程和验收标准。",
+    "path": "skills/ai-ready-prd-writer/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill ai-ready-prd-writer"
+  },
+  {
+    "name": "x-article-publisher",
+    "category": "Haruka 内容创作",
+    "summary": "把 Markdown 文章发布到 X Articles，处理格式、草稿、认证和发布前检查。",
+    "path": "skills/x-article-publisher/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill x-article-publisher"
+  },
+  {
+    "name": "tech-headline-lab",
+    "category": "Haruka 内容创作",
+    "summary": "把 AI 或科技新闻标题改写成更有传播力的中文标题，并保留事实边界。",
+    "path": "skills/tech-headline-lab/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill tech-headline-lab"
+  },
+  {
+    "name": "book-video-script-writer",
+    "category": "Haruka 内容创作",
+    "summary": "把非虚构书籍内容改写成适合短视频口播的中文脚本，保留观点和节奏。",
+    "path": "skills/book-video-script-writer/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill book-video-script-writer"
+  },
+  {
+    "name": "prompt-library-curator",
+    "category": "Haruka 内容创作",
+    "summary": "整理、检索、改写和组合提示词，建立用途、变量、示例与版本清楚的 Prompt 库。",
+    "path": "skills/prompt-library-curator/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill prompt-library-curator"
+  },
+  {
+    "name": "app-review-insights",
+    "category": "Haruka 内容创作",
+    "summary": "分析 App Store 评论，挖掘用户痛点、产品机会、差评原因和可执行改进方向。",
+    "path": "skills/app-review-insights/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill app-review-insights"
+  },
+  {
+    "name": "editorial-team-orchestrator",
+    "category": "Haruka 内容创作",
+    "summary": "编排多角色文章团队，把链接或资料转成清晰、自然且有证据意识的中文表达文章，并加入审查和增长优化。",
+    "path": "skills/editorial-team-orchestrator/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill editorial-team-orchestrator"
+  },
+  {
+    "name": "vertical-drama-writer",
+    "category": "Haruka 内容创作",
+    "summary": "当用户需要生成、续写、改写、优化或检查中文短剧、微短剧、竖屏剧、网剧、小程序短剧、分集大纲、爆款短剧开头、付费卡点、结尾钩子、品牌短剧、银发短剧。",
+    "path": "skills/vertical-drama-writer/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill vertical-drama-writer"
+  },
+  {
+    "name": "two-pass-content-rewriter",
+    "category": "Haruka 内容创作",
+    "summary": "用清晰、自然、有证据意识的中文表达对内容做两轮改写：先重写，再对照原文补漏和修正偏差。",
+    "path": "skills/two-pass-content-rewriter/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill two-pass-content-rewriter"
+  },
+  {
+    "name": "evidence-first-writer",
+    "category": "Haruka 内容创作",
+    "summary": "结合搜索、清晰、自然、有证据意识的中文表达和配图能力，完成文章选题、写作、润色和发布素材准备。",
+    "path": "skills/evidence-first-writer/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill evidence-first-writer"
+  },
+  {
+    "name": "opencli-adapter-repair",
+    "category": "Haruka 开发工程",
+    "summary": "当 OpenCLI 适配器失效时，自动定位破损命令、修复选择器或脚本，并重新验证。",
+    "path": "skills/opencli-adapter-repair/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill opencli-adapter-repair"
+  },
+  {
+    "name": "agent-ready-web-cli",
+    "category": "Haruka 开发工程",
+    "summary": "让普通网站具备可被 AI Agent 操作的 OpenCLI 命令接口，并验证真实页面动作。",
+    "path": "skills/agent-ready-web-cli/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill agent-ready-web-cli"
+  },
+  {
+    "name": "opencli-adapter-builder",
+    "category": "Haruka 开发工程",
+    "summary": "从零创建新的 OpenCLI 网站适配器，补齐探索、命令设计、实现和验证流程。",
+    "path": "skills/opencli-adapter-builder/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill opencli-adapter-builder"
+  },
+  {
+    "name": "opencli-one-shot-runner",
+    "category": "Haruka 开发工程",
+    "summary": "根据指定 URL 和目标快速生成单条 OpenCLI 命令，适合一次性网页操作。",
+    "path": "skills/opencli-one-shot-runner/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill opencli-one-shot-runner"
+  },
+  {
+    "name": "opencli-operator",
+    "category": "Haruka 开发工程",
+    "summary": "用 OpenCLI 操作 Bilibili、X、小红书、YouTube 等网站，完成搜索、点击和提取。",
+    "path": "skills/opencli-operator/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill opencli-operator"
+  },
+  {
+    "name": "multi-source-smart-search",
+    "category": "Haruka 开发工程",
+    "summary": "基于 opencli 命令的智能搜索路由器。当用户想要搜索、查询、查找或研究信息时，尤其是涉及指定网站、社交媒体、技术资料、新闻、购物、旅游、求职。",
+    "path": "skills/multi-source-smart-search/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill multi-source-smart-search"
+  },
+  {
+    "name": "lark-workspace-agent",
+    "category": "Haruka 开发工程",
+    "summary": "飞书/Lark 全能操作 Agent（消息/文档/多维表格/日历/任务/用户）。",
+    "path": "skills/lark-workspace-agent/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill lark-workspace-agent"
+  },
+  {
+    "name": "model-cli-router",
+    "category": "Haruka 开发工程",
+    "summary": "并发调用本机 Grok、Kimi K3 和 编码 Agent，分别记录日志并汇总模型意见。",
+    "path": "skills/model-cli-router/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill model-cli-router"
+  },
+  {
+    "name": "coding-agent-operator",
+    "category": "Haruka 开发工程",
+    "summary": "通过自然语言调用 OpenAI 编码 Agent CLI 执行代码任务：重构、Bug 修复、测试生成、代码解释、迁移、审查、文档生成。",
+    "path": "skills/coding-agent-operator/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill coding-agent-operator"
+  },
+  {
+    "name": "ai-endpoint-manager",
+    "category": "Haruka 开发工程",
+    "summary": "检查用户当前 AI 访问能力，核对可用模型、账号状态、接口和本机 CLI 环境。",
+    "path": "skills/ai-endpoint-manager/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill ai-endpoint-manager"
+  },
+  {
+    "name": "website-delivery-workflow",
+    "category": "Haruka 开发工程",
+    "summary": "规范网站从需求、实现、验证到 GitHub 与托管平台发布的完整交付流程。",
+    "path": "skills/website-delivery-workflow/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill website-delivery-workflow"
+  },
+  {
+    "name": "adversarial-review",
+    "category": "Haruka 开发工程",
+    "summary": "用反方审查视角检查方案、代码或产品决策，提前暴露薄弱假设和风险点。",
+    "path": "skills/adversarial-review/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill adversarial-review"
+  },
+  {
+    "name": "pull-request-creator",
+    "category": "Haruka 开发工程",
+    "summary": "按项目规则创建 Pull Request，整理提交、关联 issue、生成说明并避免遗漏检查。",
+    "path": "skills/pull-request-creator/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill pull-request-creator"
+  },
+  {
+    "name": "extension-real-browser-testing",
+    "category": "Haruka 开发工程",
+    "summary": "用真实浏览器加载扩展构建产物，验证安装、权限、交互和回归路径。",
+    "path": "skills/extension-real-browser-testing/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill extension-real-browser-testing"
+  },
+  {
+    "name": "json-render-jotai",
+    "category": "Haruka 开发工程",
+    "summary": "为 json-render 接入 Jotai 状态管理，让 JSON 规格渲染出的组件拥有可控状态。",
+    "path": "skills/json-render-jotai/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill json-render-jotai"
+  },
+  {
+    "name": "safe-migration-author",
+    "category": "Haruka 开发工程",
+    "summary": "编写和审查数据库或配置迁移脚本，关注可回滚、幂等和数据安全。",
+    "path": "skills/safe-migration-author/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill safe-migration-author"
+  },
+  {
+    "name": "pull-request-preflight",
+    "category": "Haruka 开发工程",
+    "summary": "在创建 Pull Request 前完成整理、验证、说明和风险检查，减少返工。",
+    "path": "skills/pull-request-preflight/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill pull-request-preflight"
+  },
+  {
+    "name": "json-render-react",
+    "category": "Haruka 开发工程",
+    "summary": "把 JSON 规格渲染为 React 组件，适合 json-render 的前端组件输出。",
+    "path": "skills/json-render-react/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill json-render-react"
+  },
+  {
+    "name": "browser-extension-core",
+    "category": "Haruka 开发工程",
+    "summary": "提供浏览器扩展开发工具函数，处理跨上下文通信、代理服务和扩展运行时能力。",
+    "path": "skills/browser-extension-core/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill browser-extension-core"
+  },
+  {
+    "name": "wxt-extension-builder",
+    "category": "Haruka 开发工程",
+    "summary": "用 WXT 构建浏览器扩展，处理文件路由、构建配置和扩展工程约定。",
+    "path": "skills/wxt-extension-builder/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill wxt-extension-builder"
+  },
+  {
+    "name": "multi-agent-session-launcher",
+    "category": "Haruka 开发工程",
+    "summary": "规划多种编码 Agent 的本机会话启动方式，统一权限、目录、日志和安全边界。",
+    "path": "skills/multi-agent-session-launcher/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill multi-agent-session-launcher"
+  },
+  {
+    "name": "github-project-publisher",
+    "category": "Haruka 开发工程",
+    "summary": "发布或打磨GitHub 仓库，检查 README、安装方式、标签、发布和可发现性。",
+    "path": "skills/github-project-publisher/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill github-project-publisher"
+  },
+  {
+    "name": "opencli-workflow-hub",
+    "category": "Haruka 开发工程",
+    "summary": "用 OpenCLI 操作社交和内容网站，适合自动化搜索、浏览、提取和发布前验证。",
+    "path": "skills/opencli-workflow-hub/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill opencli-workflow-hub"
+  },
+  {
+    "name": "media-asr-transcriber",
+    "category": "Haruka 音视频",
+    "summary": "把音频文件转写成文本，适合给视频、播客、会议录音或素材库做初稿。",
+    "path": "skills/media-asr-transcriber/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill media-asr-transcriber"
+  },
+  {
+    "name": "media-content-parser",
+    "category": "Haruka 音视频",
+    "summary": "从 URL 或文本中提取正文内容，为后续摘要、改写、剪辑或知识库处理做清洗。",
+    "path": "skills/media-content-parser/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill media-content-parser"
+  },
+  {
+    "name": "media-content-creator",
+    "category": "Haruka 音视频",
+    "summary": "把主题、链接或材料整理成面向平台发布的内容包，包含文案、结构和素材建议。",
+    "path": "skills/media-content-creator/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill media-content-creator"
+  },
+  {
+    "name": "explainer-video-planner",
+    "category": "Haruka 音视频",
+    "summary": "基于主题、链接或文本生成解说视频方案，包含旁白和可生成视觉素材。",
+    "path": "skills/explainer-video-planner/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill explainer-video-planner"
+  },
+  {
+    "name": "listenhub-workflow-router",
+    "category": "Haruka 音视频",
+    "summary": "ListenHub 音频生成与处理能力入口，用于路由到语音、播客或相关音频工作流。",
+    "path": "skills/listenhub-workflow-router/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill listenhub-workflow-router"
+  },
+  {
+    "name": "listenhub-cli",
+    "category": "Haruka 音视频",
+    "summary": "ListenHub CLI 能力入口，用于在本机调用和编排音频生成相关命令。",
+    "path": "skills/listenhub-cli/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill listenhub-cli"
+  },
+  {
+    "name": "listenhub-voice",
+    "category": "Haruka 音视频",
+    "summary": "用 ListenHub Voice 从文本或图片生成音频，适合旁白、播客和声音素材制作。",
+    "path": "skills/listenhub-voice/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill listenhub-voice"
+  },
+  {
+    "name": "ai-music-workflow",
+    "category": "Haruka 音视频",
+    "summary": "生成、改编、延展、编辑和分析 AI 音乐，适合歌曲创作与音乐素材迭代。",
+    "path": "skills/ai-music-workflow/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill ai-music-workflow"
+  },
+  {
+    "name": "podcast-production-studio",
+    "category": "Haruka 音视频",
+    "summary": "根据主题、URL 或文本生成播客内容，适合把资料转成可听的节目脚本或音频方案。",
+    "path": "skills/podcast-production-studio/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill podcast-production-studio"
+  },
+  {
+    "name": "media-production-pipeline",
+    "category": "Haruka 音视频",
+    "summary": "把一句视频需求拆成可复现、可验收的剪辑工程，覆盖素材、字幕、包装和渲染。",
+    "path": "skills/media-production-pipeline/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill media-production-pipeline"
+  },
+  {
+    "name": "voiceover-tts-workflow",
+    "category": "Haruka 音视频",
+    "summary": "把文本转换成语音旁白，适合视频解说、播客片段和多媒体内容制作。",
+    "path": "skills/voiceover-tts-workflow/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill voiceover-tts-workflow"
+  },
+  {
+    "name": "ai-video-workflow",
+    "category": "Haruka 音视频",
+    "summary": "根据文本提示或参考材料生成 AI 视频，适合做短视频素材和视觉片段。",
+    "path": "skills/ai-video-workflow/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill ai-video-workflow"
+  },
+  {
+    "name": "lennys-podcast-newsletter",
+    "category": "Haruka 音视频",
+    "summary": "Lenny Rachitsky 播客与 Newsletter 知识库。搜索、阅读、学习 Lenny 的 638 篇内容（289 播客转录 + 349 篇。",
+    "path": "skills/lennys-podcast-newsletter/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill lennys-podcast-newsletter"
+  },
+  {
+    "name": "music-genre-finder",
+    "category": "Haruka 音视频",
+    "summary": "在 5947 个音乐风格中检索和推荐曲风，适合找歌、做歌单或设定创作方向。",
+    "path": "skills/music-genre-finder/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill music-genre-finder"
+  },
+  {
+    "name": "yt-search-download",
+    "category": "Haruka 音视频",
+    "summary": "YouTube 视频搜索、下载视频、下载字幕工具。结合 YouTube Data API v3 进行高级搜索，yt-dlp 下载视频/音频/字幕。",
+    "path": "skills/yt-search-download/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill yt-search-download"
+  },
+  {
+    "name": "wechat-video-producer",
+    "category": "Haruka 音视频",
+    "summary": "下载和验证微信视频号分享视频或直播回放，保留素材、字幕和元数据。",
+    "path": "skills/wechat-video-producer/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill wechat-video-producer"
+  },
+  {
+    "name": "suno-song-director",
+    "category": "Haruka 音视频",
+    "summary": "把歌曲想法、故事、文章或歌词需求转成可交付的 Suno 音乐创作方案。",
+    "path": "skills/suno-song-director/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill suno-song-director"
+  },
+  {
+    "name": "netease-music-controller",
+    "category": "Haruka 音视频",
+    "summary": "网易云音乐全能助手 + 5947风格数据库。安装配置、播放控制、搜索、队列管理、 场景音乐推荐、每日推荐、心动模式、私人漫游FM、雷达歌单、红心管理。",
+    "path": "skills/netease-music-controller/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill netease-music-controller"
+  },
+  {
+    "name": "spotify-music-controller",
+    "category": "Haruka 音视频",
+    "summary": "Spotify 音乐播放控制 + 5947 风格数据库。搜索、播放、暂停、队列管理、场景音乐推荐、风格查询与探索。",
+    "path": "skills/spotify-music-controller/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill spotify-music-controller"
+  },
+  {
+    "name": "youtube-media-downloader",
+    "category": "Haruka 音视频",
+    "summary": "下载、搜索、转写或提取 YouTube 视频、Shorts、音频、字幕和元数据。",
+    "path": "skills/youtube-media-downloader/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill youtube-media-downloader"
+  },
+  {
+    "name": "suno-music-creator",
+    "category": "Haruka 音视频",
+    "summary": "AI 歌词创作大师 + Suno API 自动生成音乐。触发词包括\"创作一首歌\"、\"写一首歌\"、\"帮我作曲\"、\"生成音乐\"、\"/suno\"。",
+    "path": "skills/suno-music-creator/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill suno-music-creator"
+  },
+  {
+    "name": "compact-gif-maker",
+    "category": "Haruka 音视频",
+    "summary": "把 GIF 压缩到公众号等网页可用体积，同时尽量保留关键画面质量。",
+    "path": "skills/compact-gif-maker/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill compact-gif-maker"
+  },
+  {
+    "name": "music-video-storyboarder",
+    "category": "Haruka 音视频",
+    "summary": "AI MTV/MV 制作工具。将 Suno 生成的歌曲自动转换为传统 MTV 或 HyperFrames/GSAP kinetic MV。",
+    "path": "skills/music-video-storyboarder/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill music-video-storyboarder"
+  },
+  {
+    "name": "music-release-planner",
+    "category": "Haruka 音视频",
+    "summary": "把歌曲整理为可发布的音乐内容包，处理音频、封面、元数据、版权和发布检查。",
+    "path": "skills/music-release-planner/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill music-release-planner"
+  },
+  {
+    "name": "graduate-resume-builder",
+    "category": "Haruka 效率工具",
+    "summary": "为大学生、应届生和实习求职者从 0 创建、定制或美化可投递简历：支持借鉴 Grill Me 的一问一答访谈，从零收集经历并生成 PDF；读取岗位 JD。",
+    "path": "skills/graduate-resume-builder/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill graduate-resume-builder"
+  },
+  {
+    "name": "multi-lens-thinking",
+    "category": "Haruka 效率工具",
+    "summary": "用多种专业视角审视复杂问题，辅助决策、创意发散和方案复盘。",
+    "path": "skills/multi-lens-thinking/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill multi-lens-thinking"
+  },
+  {
+    "name": "wechat-multi",
+    "category": "Haruka 效率工具",
+    "summary": "评估并规划 macOS 上多个微信工作环境，优先采用官方、隔离且可恢复的方式。",
+    "path": "skills/wechat-multi/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill wechat-multi"
+  },
+  {
+    "name": "ai-signal-radar",
+    "category": "Haruka 效率工具",
+    "summary": "从公开的 AI、技术和创作信息源建立可追溯的信息雷达，筛选值得研究或创作的主题。",
+    "path": "skills/ai-signal-radar/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill ai-signal-radar"
+  },
+  {
+    "name": "mac-storage-auditor",
+    "category": "Haruka 效率工具",
+    "summary": "诊断 Mac 磁盘占用，区分可清理缓存、用户文件和系统数据，并制定可恢复的清理方案。",
+    "path": "skills/mac-storage-auditor/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill mac-storage-auditor"
+  },
+  {
+    "name": "notebooklm-source-preparer",
+    "category": "Haruka 阅读研究",
+    "summary": "多源内容智能处理器：支持微信公众号、网页、YouTube、播客（小宇宙/喜马拉雅）、PDF、Markdown等。",
+    "path": "skills/notebooklm-source-preparer/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill notebooklm-source-preparer"
+  },
+  {
+    "name": "clean-markdown-extractor",
+    "category": "Haruka 阅读研究",
+    "summary": "把网页链接抓取、解析或转换成干净 Markdown，适合后续阅读、总结和引用。",
+    "path": "skills/clean-markdown-extractor/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill clean-markdown-extractor"
+  },
+  {
+    "name": "epub-production-studio",
+    "category": "Haruka 阅读研究",
+    "summary": "从 Markdown 生成专业 EPUB 电子书，处理封面、配图、目录和微信读书兼容。",
+    "path": "skills/epub-production-studio/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill epub-production-studio"
+  },
+  {
+    "name": "clean-web-reader",
+    "category": "Haruka 阅读研究",
+    "summary": "从网页或本地 HTML 中提取干净正文，去掉噪音后用于阅读、总结或再加工。",
+    "path": "skills/clean-web-reader/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill clean-web-reader"
+  },
+  {
+    "name": "ebook-source-locator",
+    "category": "Haruka 阅读研究",
+    "summary": "在合法可访问的公开目录、图书馆或用户提供来源中定位电子书，并核对版本与文件信息。",
+    "path": "skills/ebook-source-locator/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill ebook-source-locator"
+  },
+  {
+    "name": "guided-reading-companion",
+    "category": "Haruka 阅读研究",
+    "summary": "把电子书或长文按章节整理为共读材料，跟踪重点、评论和阶段性理解。",
+    "path": "skills/guided-reading-companion/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill guided-reading-companion"
+  },
+  {
+    "name": "paper-explainer-zh",
+    "category": "Haruka 阅读研究",
+    "summary": "把学术论文转成清晰、自然且有证据意识的中文表达的中文解读文章，兼顾原文依据和可读性。",
+    "path": "skills/paper-explainer-zh/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill paper-explainer-zh"
+  },
+  {
+    "name": "editorial-poster-studio",
+    "category": "Haruka 设计视觉",
+    "summary": "从主题、文案和使用场景建立海报、书封或专辑封面的编辑视觉方案并完成可检查产物。",
+    "path": "skills/editorial-poster-studio/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill editorial-poster-studio"
+  },
+  {
+    "name": "product-design-critic",
+    "category": "Haruka 设计视觉",
+    "summary": "用产品目标、信息层级、可用性、一致性和视觉克制审查设计，并给出可执行修改。",
+    "path": "skills/product-design-critic/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill product-design-critic"
+  },
+  {
+    "name": "knowledge-site-creator",
+    "category": "Haruka 设计视觉",
+    "summary": "一句话生成任何领域的知识学习网站。AI自动理解主题、创作内容、生成页面、部署上线。适用于任何需要系统学习的知识领域：进化心理学、大模型术语、化学元素。",
+    "path": "skills/knowledge-site-creator/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill knowledge-site-creator"
+  },
+  {
+    "name": "cola-avatar-pack",
+    "category": "Haruka 设计视觉",
+    "summary": "生成像素风头像、自画像卡、表情 GIF 和 meme 素材，适合个人品牌包装。",
+    "path": "skills/cola-avatar-pack/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill cola-avatar-pack"
+  },
+  {
+    "name": "image-generation-workflow",
+    "category": "Haruka 设计视觉",
+    "summary": "根据文本提示生成 AI 图片，适合文章配图、概念图、封面和视觉素材初稿。",
+    "path": "skills/image-generation-workflow/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill image-generation-workflow"
+  },
+  {
+    "name": "presentation-studio",
+    "category": "Haruka 设计视觉",
+    "summary": "根据主题、URL 或文本创建演示文稿，适合快速产出结构化汇报材料。",
+    "path": "skills/presentation-studio/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill presentation-studio"
+  },
+  {
+    "name": "editorial-info-card",
+    "category": "Haruka 设计视觉",
+    "summary": "将任意文本/URL/信息转化为杂志质感 HTML 信息卡片，并自动截图保存为图片。",
+    "path": "skills/editorial-info-card/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill editorial-info-card"
+  },
+  {
+    "name": "bento-presentation-builder",
+    "category": "Haruka 设计视觉",
+    "summary": "创建或编辑清晰、自然且有证据意识的中文表达 Bento 演示页面，把资料组织成可展示的卡片式叙事。",
+    "path": "skills/bento-presentation-builder/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill bento-presentation-builder"
+  },
+  {
+    "name": "brand-icon-explorer",
+    "category": "Haruka 设计视觉",
+    "summary": "生成多版应用、网站或 favicon 图标候选，并按品牌方向筛选可用方案。",
+    "path": "skills/brand-icon-explorer/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill brand-icon-explorer"
+  },
+  {
+    "name": "evidence-led-slide-deck",
+    "category": "Haruka 设计视觉",
+    "summary": "制作中文优先、资料有据的清晰、自然且有证据意识的中文表达 PPT，先定结构再生成可编辑页面。",
+    "path": "skills/evidence-led-slide-deck/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill evidence-led-slide-deck"
+  },
+  {
+    "name": "dictionary-card-maker",
+    "category": "Haruka 设计视觉",
+    "summary": "生成复古纸张质感的词语卡片 / 短句卡片 / 词典风海报。",
+    "path": "skills/dictionary-card-maker/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill dictionary-card-maker"
+  },
+  {
+    "name": "content-image-director",
+    "category": "Haruka 设计视觉",
+    "summary": "为文章、论文、封面或社媒内容生成图片，并按用途优化提示词和输出规格。",
+    "path": "skills/content-image-director/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill content-image-director"
+  },
+  {
+    "name": "social-cover-studio",
+    "category": "Haruka 设计视觉",
+    "summary": "为公众号、社交平台或专题内容设计多方向横向封面，保证标题可读与裁切安全。",
+    "path": "skills/social-cover-studio/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill social-cover-studio"
+  },
+  {
+    "name": "tldraw-canvas-workflow",
+    "category": "Haruka 设计视觉",
+    "summary": "创建、复刻和验证可编辑 tldraw 画布，适合流程图、白板和交互原型。",
+    "path": "skills/tldraw-canvas-workflow/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill tldraw-canvas-workflow"
+  },
+  {
+    "name": "interactive-chart-report",
+    "category": "Haruka 设计视觉",
+    "summary": "将文本、Markdown、CSV/JSON/表格数据、研究材料或统计结果制作成自包含 HTML 可视化网页、数据故事和统计报告。",
+    "path": "skills/interactive-chart-report/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill interactive-chart-report"
+  },
+  {
+    "name": "html-cover-renderer",
+    "category": "Haruka 设计视觉",
+    "summary": "把标题和内容做成固定尺寸 HTML 封面或社媒卡片，并截图导出 PNG。",
+    "path": "skills/html-cover-renderer/SKILL.md",
+    "installCommand": "npx skills add https://github.com/harukaoffice1109/skill --skill html-cover-renderer"
+  }
+]

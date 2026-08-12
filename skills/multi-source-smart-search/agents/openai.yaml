@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multi Source Smart Search"
+  short_description: "基于 opencli 命令的智能搜索路由器。当用户想要搜索、查询、查找或研究信息时，尤其是涉及指定网站、社交媒体、技术资"
+  default_prompt: "Use $multi-source-smart-search to complete this workflow and return a verified deliverable."

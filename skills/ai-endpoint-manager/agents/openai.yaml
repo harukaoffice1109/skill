@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Endpoint Manager"
+  short_description: "检查用户当前 AI 访问能力，核对可用模型、账号状态、接口和本机 CLI 环境。"
+  default_prompt: "Use $ai-endpoint-manager to complete this workflow and return a verified deliverable."

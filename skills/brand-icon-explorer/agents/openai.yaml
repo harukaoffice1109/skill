@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brand Icon Explorer"
+  short_description: "生成多版应用、网站或 favicon 图标候选，并按品牌方向筛选可用方案。"
+  default_prompt: "Use $brand-icon-explorer to complete this workflow and return a verified deliverable."

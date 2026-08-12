@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Library Curator"
+  short_description: "整理、检索、改写和组合提示词，建立用途、变量、示例与版本清楚的 Prompt 库。"
+  default_prompt: "Use $prompt-library-curator to complete this workflow and return a verified deliverable."

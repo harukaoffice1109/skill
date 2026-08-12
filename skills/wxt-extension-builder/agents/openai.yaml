@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wxt Extension Builder"
+  short_description: "用 WXT 构建浏览器扩展，处理文件路由、构建配置和扩展工程约定。"
+  default_prompt: "Use $wxt-extension-builder to complete this workflow and return a verified deliverable."

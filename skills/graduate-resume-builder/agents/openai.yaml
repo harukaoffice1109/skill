@@ -1,0 +1,4 @@
+interface:
+  display_name: "Graduate Resume Builder"
+  short_description: "为大学生、应届生和实习求职者从 0 创建、定制或美化可投递简历：支持借鉴 Grill Me 的一问一答访谈，从零收集经历"
+  default_prompt: "Use $graduate-resume-builder to complete this workflow and return a verified deliverable."

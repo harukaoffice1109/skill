@@ -1,0 +1,4 @@
+interface:
+  display_name: "Voiceover TTS Workflow"
+  short_description: "把文本转换成语音旁白，适合视频解说、播客片段和多媒体内容制作。"
+  default_prompt: "Use $voiceover-tts-workflow to complete this workflow and return a verified deliverable."

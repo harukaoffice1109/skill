@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chinese Fiction Studio"
+  short_description: "根据一句想法生成完整、有钩子、有节奏的中文短篇小说，并支持续写和改写。"
+  default_prompt: "Use $chinese-fiction-studio to complete this workflow and return a verified deliverable."

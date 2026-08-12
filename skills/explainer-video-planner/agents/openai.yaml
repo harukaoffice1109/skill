@@ -1,0 +1,4 @@
+interface:
+  display_name: "Explainer Video Planner"
+  short_description: "基于主题、链接或文本生成解说视频方案，包含旁白和可生成视觉素材。"
+  default_prompt: "Use $explainer-video-planner to complete this workflow and return a verified deliverable."

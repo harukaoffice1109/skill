@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cola Avatar Pack"
+  short_description: "生成像素风头像、自画像卡、表情 GIF 和 meme 素材，适合个人品牌包装。"
+  default_prompt: "Use $cola-avatar-pack to complete this workflow and return a verified deliverable."

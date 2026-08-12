@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Explainer Zh"
+  short_description: "把学术论文转成清晰、自然且有证据意识的中文表达的中文解读文章，兼顾原文依据和可读性。"
+  default_prompt: "Use $paper-explainer-zh to complete this workflow and return a verified deliverable."

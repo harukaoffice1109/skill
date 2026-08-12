@@ -1,0 +1,4 @@
+interface:
+  display_name: "EPUB Production Studio"
+  short_description: "从 Markdown 生成专业 EPUB 电子书，处理封面、配图、目录和微信读书兼容。"
+  default_prompt: "Use $epub-production-studio to complete this workflow and return a verified deliverable."

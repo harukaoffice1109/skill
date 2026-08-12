@@ -1,0 +1,4 @@
+interface:
+  display_name: "Coding Agent Operator"
+  short_description: "通过自然语言调用 OpenAI 编码 Agent CLI 执行代码任务：重构、Bug 修复、测试生成、代码解释、迁移、审"
+  default_prompt: "Use $coding-agent-operator to complete this workflow and return a verified deliverable."

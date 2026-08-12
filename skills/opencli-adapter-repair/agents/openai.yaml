@@ -1,0 +1,4 @@
+interface:
+  display_name: "Opencli Adapter Repair"
+  short_description: "当 OpenCLI 适配器失效时，自动定位破损命令、修复选择器或脚本，并重新验证。"
+  default_prompt: "Use $opencli-adapter-repair to complete this workflow and return a verified deliverable."

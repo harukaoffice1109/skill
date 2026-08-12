@@ -1,0 +1,4 @@
+interface:
+  display_name: "Suno Song Director"
+  short_description: "把歌曲想法、故事、文章或歌词需求转成可交付的 Suno 音乐创作方案。"
+  default_prompt: "Use $suno-song-director to complete this workflow and return a verified deliverable."

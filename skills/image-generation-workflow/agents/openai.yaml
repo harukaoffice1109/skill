@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image Generation Workflow"
+  short_description: "根据文本提示生成 AI 图片，适合文章配图、概念图、封面和视觉素材初稿。"
+  default_prompt: "Use $image-generation-workflow to complete this workflow and return a verified deliverable."

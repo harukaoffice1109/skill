@@ -1,0 +1,4 @@
+interface:
+  display_name: "Website Delivery Workflow"
+  short_description: "规范网站从需求、实现、验证到 GitHub 与托管平台发布的完整交付流程。"
+  default_prompt: "Use $website-delivery-workflow to complete this workflow and return a verified deliverable."

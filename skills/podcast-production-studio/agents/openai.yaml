@@ -1,0 +1,4 @@
+interface:
+  display_name: "Podcast Production Studio"
+  short_description: "根据主题、URL 或文本生成播客内容，适合把资料转成可听的节目脚本或音频方案。"
+  default_prompt: "Use $podcast-production-studio to complete this workflow and return a verified deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "YOUTUBE Media Downloader"
+  short_description: "下载、搜索、转写或提取 YouTube 视频、Shorts、音频、字幕和元数据。"
+  default_prompt: "Use $youtube-media-downloader to complete this workflow and return a verified deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markdown Blog Publisher"
+  short_description: "把 Markdown、文本或网页材料整理成可发布的博客内容包，处理元数据、图片、草稿状态和发布前检查。"
+  default_prompt: "Use $markdown-blog-publisher to complete this workflow and return a verified deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Guided Reading Companion"
+  short_description: "把电子书或长文按章节整理为共读材料，跟踪重点、评论和阶段性理解。"
+  default_prompt: "Use $guided-reading-companion to complete this workflow and return a verified deliverable."

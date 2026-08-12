@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vertical Drama Writer"
+  short_description: "当用户需要生成、续写、改写、优化或检查中文短剧、微短剧、竖屏剧、网剧、小程序短剧、分集大纲、爆款短剧开头、付费卡点、结尾"
+  default_prompt: "Use $vertical-drama-writer to complete this workflow and return a verified deliverable."

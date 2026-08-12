@@ -1,0 +1,4 @@
+interface:
+  display_name: "Media Production Pipeline"
+  short_description: "把一句视频需求拆成可复现、可验收的剪辑工程，覆盖素材、字幕、包装和渲染。"
+  default_prompt: "Use $media-production-pipeline to complete this workflow and return a verified deliverable."

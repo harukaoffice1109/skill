@@ -1,0 +1,4 @@
+interface:
+  display_name: "Suno Music Creator"
+  short_description: "AI 歌词创作大师 + Suno API 自动生成音乐。触发词包括\"创作一首歌\"、\"写一首歌\"、\"帮我作曲\"、\"生成音乐"
+  default_prompt: "Use $suno-music-creator to complete this workflow and return a verified deliverable."

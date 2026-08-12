@@ -1,0 +1,4 @@
+interface:
+  display_name: "Yt Search Download"
+  short_description: "YouTube 视频搜索、下载视频、下载字幕工具。结合 YouTube Data API v3 进行高级搜索，yt-dl"
+  default_prompt: "Use $yt-search-download to complete this workflow and return a verified deliverable."

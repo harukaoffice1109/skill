@@ -1,0 +1,4 @@
+interface:
+  display_name: "Listenhub Voice"
+  short_description: "用 ListenHub Voice 从文本或图片生成音频，适合旁白、播客和声音素材制作。"
+  default_prompt: "Use $listenhub-voice to complete this workflow and return a verified deliverable."

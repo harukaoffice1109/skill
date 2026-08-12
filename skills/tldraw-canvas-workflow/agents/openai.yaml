@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tldraw Canvas Workflow"
+  short_description: "创建、复刻和验证可编辑 tldraw 画布，适合流程图、白板和交互原型。"
+  default_prompt: "Use $tldraw-canvas-workflow to complete this workflow and return a verified deliverable."

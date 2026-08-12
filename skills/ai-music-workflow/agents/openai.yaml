@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Music Workflow"
+  short_description: "生成、改编、延展、编辑和分析 AI 音乐，适合歌曲创作与音乐素材迭代。"
+  default_prompt: "Use $ai-music-workflow to complete this workflow and return a verified deliverable."

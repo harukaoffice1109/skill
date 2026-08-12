@@ -1,0 +1,4 @@
+interface:
+  display_name: "Media Content Creator"
+  short_description: "把主题、链接或材料整理成面向平台发布的内容包，包含文案、结构和素材建议。"
+  default_prompt: "Use $media-content-creator to complete this workflow and return a verified deliverable."

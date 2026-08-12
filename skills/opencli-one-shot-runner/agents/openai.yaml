@@ -1,0 +1,4 @@
+interface:
+  display_name: "Opencli One Shot Runner"
+  short_description: "根据指定 URL 和目标快速生成单条 OpenCLI 命令，适合一次性网页操作。"
+  default_prompt: "Use $opencli-one-shot-runner to complete this workflow and return a verified deliverable."

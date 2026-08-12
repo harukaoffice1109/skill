@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compact GIF Maker"
+  short_description: "把 GIF 压缩到公众号等网页可用体积，同时尽量保留关键画面质量。"
+  default_prompt: "Use $compact-gif-maker to complete this workflow and return a verified deliverable."

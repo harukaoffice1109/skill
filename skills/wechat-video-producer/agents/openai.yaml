@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wechat Video Producer"
+  short_description: "下载和验证微信视频号分享视频或直播回放，保留素材、字幕和元数据。"
+  default_prompt: "Use $wechat-video-producer to complete this workflow and return a verified deliverable."

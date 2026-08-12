@@ -1,0 +1,4 @@
+interface:
+  display_name: "Social Cover Studio"
+  short_description: "为公众号、社交平台或专题内容设计多方向横向封面，保证标题可读与裁切安全。"
+  default_prompt: "Use $social-cover-studio to complete this workflow and return a verified deliverable."

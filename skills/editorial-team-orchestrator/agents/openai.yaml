@@ -1,0 +1,4 @@
+interface:
+  display_name: "Editorial Team Orchestrator"
+  short_description: "编排多角色文章团队，把链接或资料转成清晰、自然且有证据意识的中文表达文章，并加入审查和增长优化。"
+  default_prompt: "Use $editorial-team-orchestrator to complete this workflow and return a verified deliverable."

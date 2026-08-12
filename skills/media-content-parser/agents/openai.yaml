@@ -1,0 +1,4 @@
+interface:
+  display_name: "Media Content Parser"
+  short_description: "从 URL 或文本中提取正文内容，为后续摘要、改写、剪辑或知识库处理做清洗。"
+  default_prompt: "Use $media-content-parser to complete this workflow and return a verified deliverable."

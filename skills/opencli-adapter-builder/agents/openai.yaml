@@ -1,0 +1,4 @@
+interface:
+  display_name: "Opencli Adapter Builder"
+  short_description: "从零创建新的 OpenCLI 网站适配器，补齐探索、命令设计、实现和验证流程。"
+  default_prompt: "Use $opencli-adapter-builder to complete this workflow and return a verified deliverable."

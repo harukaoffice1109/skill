@@ -1,0 +1,4 @@
+interface:
+  display_name: "Json Render Jotai"
+  short_description: "为 json-render 接入 Jotai 状态管理，让 JSON 规格渲染出的组件拥有可控状态。"
+  default_prompt: "Use $json-render-jotai to complete this workflow and return a verified deliverable."

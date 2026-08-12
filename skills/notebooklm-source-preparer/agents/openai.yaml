@@ -1,0 +1,4 @@
+interface:
+  display_name: "Notebooklm Source Preparer"
+  short_description: "多源内容智能处理器：支持微信公众号、网页、YouTube、播客（小宇宙/喜马拉雅）、PDF、Markdown等。"
+  default_prompt: "Use $notebooklm-source-preparer to complete this workflow and return a verified deliverable."

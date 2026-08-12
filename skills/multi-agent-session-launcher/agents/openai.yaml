@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multi Agent Session Launcher"
+  short_description: "规划多种编码 Agent 的本机会话启动方式，统一权限、目录、日志和安全边界。"
+  default_prompt: "Use $multi-agent-session-launcher to complete this workflow and return a verified deliverable."

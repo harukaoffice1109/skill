@@ -1,0 +1,4 @@
+interface:
+  display_name: "X Article Publisher"
+  short_description: "把 Markdown 文章发布到 X Articles，处理格式、草稿、认证和发布前检查。"
+  default_prompt: "Use $x-article-publisher to complete this workflow and return a verified deliverable."

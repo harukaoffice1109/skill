@@ -1,0 +1,4 @@
+interface:
+  display_name: "Haruka Skill Index"
+  short_description: "维护 Haruka Skills 的分类索引、用途说明、安装入口和版本状态。"
+  default_prompt: "Use $haruka-skill-index to complete this workflow and return a verified deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Search Visibility Auditor"
+  short_description: "审查和优化网站 SEO，覆盖 Google、Bing、AI 搜索、技术结构、内容机会和上线验证。"
+  default_prompt: "Use $search-visibility-auditor to complete this workflow and return a verified deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spotify Music Controller"
+  short_description: "Spotify 音乐播放控制 + 5947 风格数据库。搜索、播放、暂停、队列管理、场景音乐推荐、风格查询与探索。"
+  default_prompt: "Use $spotify-music-controller to complete this workflow and return a verified deliverable."

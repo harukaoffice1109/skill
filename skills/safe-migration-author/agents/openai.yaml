@@ -1,0 +1,4 @@
+interface:
+  display_name: "Safe Migration Author"
+  short_description: "编写和审查数据库或配置迁移脚本，关注可回滚、幂等和数据安全。"
+  default_prompt: "Use $safe-migration-author to complete this workflow and return a verified deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Music Video Storyboarder"
+  short_description: "AI MTV/MV 制作工具。将 Suno 生成的歌曲自动转换为传统 MTV 或 HyperFrames/GSAP ki"
+  default_prompt: "Use $music-video-storyboarder to complete this workflow and return a verified deliverable."

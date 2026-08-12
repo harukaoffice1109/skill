@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clean Markdown Extractor"
+  short_description: "把网页链接抓取、解析或转换成干净 Markdown，适合后续阅读、总结和引用。"
+  default_prompt: "Use $clean-markdown-extractor to complete this workflow and return a verified deliverable."

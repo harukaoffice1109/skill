@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Image Director"
+  short_description: "为文章、论文、封面或社媒内容生成图片，并按用途优化提示词和输出规格。"
+  default_prompt: "Use $content-image-director to complete this workflow and return a verified deliverable."

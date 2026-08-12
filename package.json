@@ -1,5 +1,5 @@
 {
-  "name": "skill-directory",
+  "name": "haruka-skills",
   "version": "1.0.0",
   "private": true,
   "engines": { "node": ">=20.19.0" },

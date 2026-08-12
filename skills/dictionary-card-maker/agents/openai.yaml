@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dictionary Card Maker"
+  short_description: "生成复古纸张质感的词语卡片 / 短句卡片 / 词典风海报。"
+  default_prompt: "Use $dictionary-card-maker to complete this workflow and return a verified deliverable."

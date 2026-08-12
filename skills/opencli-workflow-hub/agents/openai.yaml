@@ -1,0 +1,4 @@
+interface:
+  display_name: "Opencli Workflow Hub"
+  short_description: "用 OpenCLI 操作社交和内容网站，适合自动化搜索、浏览、提取和发布前验证。"
+  default_prompt: "Use $opencli-workflow-hub to complete this workflow and return a verified deliverable."

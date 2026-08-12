@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evidence Led Slide Deck"
+  short_description: "制作中文优先、资料有据的清晰、自然且有证据意识的中文表达 PPT，先定结构再生成可编辑页面。"
+  default_prompt: "Use $evidence-led-slide-deck to complete this workflow and return a verified deliverable."

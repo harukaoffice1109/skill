@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ebook Source Locator"
+  short_description: "在合法可访问的公开目录、图书馆或用户提供来源中定位电子书，并核对版本与文件信息。"
+  default_prompt: "Use $ebook-source-locator to complete this workflow and return a verified deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Extension Real Browser Testing"
+  short_description: "用真实浏览器加载扩展构建产物，验证安装、权限、交互和回归路径。"
+  default_prompt: "Use $extension-real-browser-testing to complete this workflow and return a verified deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Two Pass Content Rewriter"
+  short_description: "用清晰、自然、有证据意识的中文表达对内容做两轮改写：先重写，再对照原文补漏和修正偏差。"
+  default_prompt: "Use $two-pass-content-rewriter to complete this workflow and return a verified deliverable."

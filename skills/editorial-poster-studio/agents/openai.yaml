@@ -1,0 +1,4 @@
+interface:
+  display_name: "Editorial Poster Studio"
+  short_description: "从主题、文案和使用场景建立海报、书封或专辑封面的编辑视觉方案并完成可检查产物。"
+  default_prompt: "Use $editorial-poster-studio to complete this workflow and return a verified deliverable."

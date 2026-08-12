@@ -1,0 +1,4 @@
+interface:
+  display_name: "Book Video Script Writer"
+  short_description: "把非虚构书籍内容改写成适合短视频口播的中文脚本，保留观点和节奏。"
+  default_prompt: "Use $book-video-script-writer to complete this workflow and return a verified deliverable."

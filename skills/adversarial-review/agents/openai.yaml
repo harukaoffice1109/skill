@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adversarial Review"
+  short_description: "用反方审查视角检查方案、代码或产品决策，提前暴露薄弱假设和风险点。"
+  default_prompt: "Use $adversarial-review to complete this workflow and return a verified deliverable."

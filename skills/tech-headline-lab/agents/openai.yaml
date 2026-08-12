@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tech Headline Lab"
+  short_description: "把 AI 或科技新闻标题改写成更有传播力的中文标题，并保留事实边界。"
+  default_prompt: "Use $tech-headline-lab to complete this workflow and return a verified deliverable."

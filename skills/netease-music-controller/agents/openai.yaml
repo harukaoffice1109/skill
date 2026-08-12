@@ -1,0 +1,4 @@
+interface:
+  display_name: "Netease Music Controller"
+  short_description: "网易云音乐全能助手 + 5947风格数据库。安装配置、播放控制、搜索、队列管理、 场景音乐推荐、每日推荐、心动模式、私人"
+  default_prompt: "Use $netease-music-controller to complete this workflow and return a verified deliverable."

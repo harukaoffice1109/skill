@@ -1,0 +1,4 @@
+interface:
+  display_name: "Opencli Operator"
+  short_description: "用 OpenCLI 操作 Bilibili、X、小红书、YouTube 等网站，完成搜索、点击和提取。"
+  default_prompt: "Use $opencli-operator to complete this workflow and return a verified deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "GITHUB Project Publisher"
+  short_description: "发布或打磨GitHub 仓库，检查 README、安装方式、标签、发布和可发现性。"
+  default_prompt: "Use $github-project-publisher to complete this workflow and return a verified deliverable."

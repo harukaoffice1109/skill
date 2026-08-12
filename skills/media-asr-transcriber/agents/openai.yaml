@@ -1,0 +1,4 @@
+interface:
+  display_name: "Media ASR Transcriber"
+  short_description: "把音频文件转写成文本，适合给视频、播客、会议录音或素材库做初稿。"
+  default_prompt: "Use $media-asr-transcriber to complete this workflow and return a verified deliverable."

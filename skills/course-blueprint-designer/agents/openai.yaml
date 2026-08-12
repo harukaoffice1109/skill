@@ -1,0 +1,4 @@
+interface:
+  display_name: "Course Blueprint Designer"
+  short_description: "通过持续、单问、带推荐答案的依赖感知访谈，与用户共创课程、培训、workshop、教学项目或知识产品蓝图。用于从模糊想法"
+  default_prompt: "Use $course-blueprint-designer to complete this workflow and return a verified deliverable."

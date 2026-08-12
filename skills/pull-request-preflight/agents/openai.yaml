@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pull Request Preflight"
+  short_description: "在创建 Pull Request 前完成整理、验证、说明和风险检查，减少返工。"
+  default_prompt: "Use $pull-request-preflight to complete this workflow and return a verified deliverable."

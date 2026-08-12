@@ -1,0 +1,4 @@
+interface:
+  display_name: "App Review Insights"
+  short_description: "分析 App Store 评论，挖掘用户痛点、产品机会、差评原因和可执行改进方向。"
+  default_prompt: "Use $app-review-insights to complete this workflow and return a verified deliverable."

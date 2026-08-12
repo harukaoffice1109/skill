@@ -1,0 +1,4 @@
+interface:
+  display_name: "Music Release Planner"
+  short_description: "把歌曲整理为可发布的音乐内容包，处理音频、封面、元数据、版权和发布检查。"
+  default_prompt: "Use $music-release-planner to complete this workflow and return a verified deliverable."

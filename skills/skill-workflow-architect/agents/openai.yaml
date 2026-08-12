@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Workflow Architect"
+  short_description: "把真实工作流研究、评测、打包成可发布的 Agent Skill，并保留迁移和治理流程。"
+  default_prompt: "Use $skill-workflow-architect to complete this workflow and return a verified deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deep Research Orchestrator"
+  short_description: "用多代理并行分析复杂问题，再由主线程汇总成结构化 Markdown 与 HTML 报告。"
+  default_prompt: "Use $deep-research-orchestrator to complete this workflow and return a verified deliverable."

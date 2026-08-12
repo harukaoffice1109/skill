@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Ready WEB CLI"
+  short_description: "让普通网站具备可被 AI Agent 操作的 OpenCLI 命令接口，并验证真实页面动作。"
+  default_prompt: "Use $agent-ready-web-cli to complete this workflow and return a verified deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Model CLI Router"
+  short_description: "并发调用本机 Grok、Kimi K3 和 编码 Agent，分别记录日志并汇总模型意见。"
+  default_prompt: "Use $model-cli-router to complete this workflow and return a verified deliverable."

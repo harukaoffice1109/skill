@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pull Request Creator"
+  short_description: "按项目规则创建 Pull Request，整理提交、关联 issue、生成说明并避免遗漏检查。"
+  default_prompt: "Use $pull-request-creator to complete this workflow and return a verified deliverable."

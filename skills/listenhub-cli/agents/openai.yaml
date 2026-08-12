@@ -1,0 +1,4 @@
+interface:
+  display_name: "Listenhub CLI"
+  short_description: "ListenHub CLI 能力入口，用于在本机调用和编排音频生成相关命令。"
+  default_prompt: "Use $listenhub-cli to complete this workflow and return a verified deliverable."

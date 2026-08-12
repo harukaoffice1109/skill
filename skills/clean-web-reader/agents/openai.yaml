@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clean WEB Reader"
+  short_description: "从网页或本地 HTML 中提取干净正文，去掉噪音后用于阅读、总结或再加工。"
+  default_prompt: "Use $clean-web-reader to complete this workflow and return a verified deliverable."

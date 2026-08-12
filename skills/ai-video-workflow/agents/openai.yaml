@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Video Workflow"
+  short_description: "根据文本提示或参考材料生成 AI 视频，适合做短视频素材和视觉片段。"
+  default_prompt: "Use $ai-video-workflow to complete this workflow and return a verified deliverable."

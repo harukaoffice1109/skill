@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mac Storage Auditor"
+  short_description: "诊断 Mac 磁盘占用，区分可清理缓存、用户文件和系统数据，并制定可恢复的清理方案。"
+  default_prompt: "Use $mac-storage-auditor to complete this workflow and return a verified deliverable."

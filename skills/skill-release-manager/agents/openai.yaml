@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Release Manager"
+  short_description: "检查并发布 Agent Skill，覆盖目录规范、说明、安装命令、版本记录和发布验证。"
+  default_prompt: "Use $skill-release-manager to complete this workflow and return a verified deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multi Lens Thinking"
+  short_description: "用多种专业视角审视复杂问题，辅助决策、创意发散和方案复盘。"
+  default_prompt: "Use $multi-lens-thinking to complete this workflow and return a verified deliverable."

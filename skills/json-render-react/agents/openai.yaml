@@ -1,0 +1,4 @@
+interface:
+  display_name: "Json Render React"
+  short_description: "把 JSON 规格渲染为 React 组件，适合 json-render 的前端组件输出。"
+  default_prompt: "Use $json-render-react to complete this workflow and return a verified deliverable."

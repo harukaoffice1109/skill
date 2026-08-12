@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Design Critic"
+  short_description: "用产品目标、信息层级、可用性、一致性和视觉克制审查设计，并给出可执行修改。"
+  default_prompt: "Use $product-design-critic to complete this workflow and return a verified deliverable."

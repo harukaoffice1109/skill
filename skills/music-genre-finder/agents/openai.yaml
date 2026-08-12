@@ -1,0 +1,4 @@
+interface:
+  display_name: "Music Genre Finder"
+  short_description: "在 5947 个音乐风格中检索和推荐曲风，适合找歌、做歌单或设定创作方向。"
+  default_prompt: "Use $music-genre-finder to complete this workflow and return a verified deliverable."

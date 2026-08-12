@@ -1,0 +1,4 @@
+interface:
+  display_name: "Browser Extension Core"
+  short_description: "提供浏览器扩展开发工具函数，处理跨上下文通信、代理服务和扩展运行时能力。"
+  default_prompt: "Use $browser-extension-core to complete this workflow and return a verified deliverable."

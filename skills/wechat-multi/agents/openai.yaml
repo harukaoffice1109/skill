@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wechat Multi"
+  short_description: "评估并规划 macOS 上多个微信工作环境，优先采用官方、隔离且可恢复的方式。"
+  default_prompt: "Use $wechat-multi to complete this workflow and return a verified deliverable."

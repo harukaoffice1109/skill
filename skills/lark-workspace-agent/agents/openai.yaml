@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lark Workspace Agent"
+  short_description: "飞书/Lark 全能操作 Agent（消息/文档/多维表格/日历/任务/用户）。"
+  default_prompt: "Use $lark-workspace-agent to complete this workflow and return a verified deliverable."
