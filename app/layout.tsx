@@ -15,7 +15,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Skill 推荐网 | 精选 Agent Skills",
   description: "按类别精选 Agent Skills，提供中文介绍、推荐理由和安装入口。",
-  metadataBase: new URL("https://moko-skill-directory.harukaoffice.chatgpt.site"),
   openGraph: {
     title: "Skill 推荐网",
     description: "333 个 Agent Skills，总有一个顺手。",
